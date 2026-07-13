@@ -16,15 +16,17 @@ function App() {
   return (
     <>
       <Header />
-      <Hero/>
-      <FlashSales/>
-      <BrowseCategory/>
-      <BestSelling/>
-      <MusicBanner/>
-      <ExploreProducts/>
-      <NewArrival/>
-      <Services/>
-      <Footer/>
+      <main>
+        <Hero />
+        <FlashSales />
+        <BrowseCategory />
+        <BestSelling />
+        <MusicBanner />
+        <ExploreProducts />
+        <NewArrival />
+        <Services />
+      </main>
+      <Footer />
     </>
   )
 }
