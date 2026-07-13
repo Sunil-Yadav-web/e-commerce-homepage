@@ -1,0 +1,129 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 80px 0 0;
+}
+
+.footer h3 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.footer h5 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.footer p,
+.footer li {
+  color: #d9d9d9;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  color: #fff;
+}
+
+.subscribe-box {
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  outline: none;
+}
+
+.subscribe-box input::placeholder {
+  color: #ccc;
+}
+
+.subscribe-box button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0 15px;
+  font-size: 22px;
+}
+
+.download-text {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.download-app {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.download-app img:first-child {
+  width: 90px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stores img {
+  width: 120px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.social-icons svg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #DB4444;
+}
+
+.copyright {
+  margin-top: 60px;
+  padding: 20px 0;
+  text-align: center;
+  color: #888;
+  border-top: 1px solid #222;
+  font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    text-align: center;
+  }
+
+  .download-app {
+    justify-content: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,37 @@
+.best-selling {
+  padding: 70px 0;
+}
+
+.section-small span{
+  display: inline-block;
+  width: 20px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #db4444;
+}
+
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.best-selling .btn {
+  border-radius: 4px;
+  padding: 12px 40px;
+}
+
+@media (max-width: 768px) {
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .best-selling .d-flex {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 20px;
+  }
+
+}

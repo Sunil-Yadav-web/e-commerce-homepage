@@ -1,0 +1,93 @@
+.banner-wrapper {
+  background: #000;
+  color: #fff;
+  padding: 70px;
+}
+
+.banner-category {
+  color: #00ff66;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 25px 0 40px;
+  line-height: 1.3;
+  max-width: 450px;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+}
+
+.time-box {
+  width: 62px;
+  height: 62px;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.time-box h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.time-box span {
+  font-size: 11px;
+}
+
+.btn-buy {
+  background: #00ff66;
+  color: #fff;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-buy {
+  margin-top: 40px;
+}
+
+.btn-buy:hover {
+  background: #00d957;
+}
+
+.speaker-img {
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .banner-wrapper {
+    padding: 40px 25px;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 34px;
+    margin: 20px auto 30px;
+  }
+
+  .countdown {
+    justify-content: center;
+  }
+
+  .speaker-img {
+    margin-top: 40px;
+  }
+
+  .btn-buy {
+  margin-top: 32px;
+}
+}
