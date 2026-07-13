@@ -1,4 +1,4 @@
-import './Hero.css'
+import './hero.css'
 import apple from '../assets/images/hero_iphone.png'
 import logo from '../assets/images/Apple_logo.png'
 import { FaArrowRight, FaChevronRight } from 'react-icons/fa'
