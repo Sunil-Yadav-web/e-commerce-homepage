@@ -15,7 +15,9 @@ import Services from './Components/Services'
 function App() {
   return (
     <>
-      <Header />
+      <header>
+        <Header />
+      </header>
       <main>
         <Hero />
         <FlashSales />
