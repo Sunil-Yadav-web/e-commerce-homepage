@@ -18,7 +18,7 @@ function BrowseCategory() {
             <h2 className="fw-semibold mt-2">Browse By Category</h2>
           </div>
 
-          <div className="d-flex gap-2">
+          <div className="d-flex gap-2 d-sm-flex d-none">
             <button className="arrow-btn">
                  <img src={LeftArrow} alt='LeftArrow'/>  
             </button>

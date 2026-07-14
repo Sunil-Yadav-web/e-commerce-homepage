@@ -67,11 +67,9 @@
     text-align: center;
   }
 
-  .hero-banner img {
-    margin-top: 30px;
-  }
 
   .hero-banner h1 {
     font-size: 36px;
+    text-align: start;
   }
 }

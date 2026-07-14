@@ -1,5 +1,5 @@
 import './productCard.css'
-import { FaStar, FaRegHeart, FaRegEye } from 'react-icons/fa'
+import { FaStar, FaRegHeart, FaRegEye, FaStarHalfAlt } from 'react-icons/fa'
 
 function ProductCard({
   image,
@@ -10,17 +10,17 @@ function ProductCard({
   rating,
   cart,
   index,
+  badge,
 }) {
   return (
     <div className="card product-card border-0 shadow-sm">
       <div className="product-image">
-        {discount && <span className="discount">{discount}</span>}
-
+        {discount && <span className="discount">{discount}</span>} 
+        {badge && <span className="badge">{badge}</span>}
         <div className="icons">
           <FaRegHeart />
           <FaRegEye />
         </div>
-
         <img src={image} alt={title} className="img-fluid" />
         {cart && (
           <div className="cart-label">
@@ -40,7 +40,7 @@ function ProductCard({
 
         <div className="rating">
           {[1, 2, 3, 4, 5].map((item) => (
-            <FaStar key={item} className="star" />
+            (item > 4) ?(<FaStarHalfAlt className="star" />): (<FaStar key={item} className="star" />)
           ))}
 
           <span>({rating})</span>
@@ -50,13 +50,13 @@ function ProductCard({
             <span className="circle1">
               <span
                 className={
-                  (index === 4
+                  index === 4
                     ? 'sub-circle-bg-red sub-circle '
-                    : (index === 5)
+                    : index === 5
                       ? 'sub-circle-bg-yellow sub-circle'
                       : index > 5
                         ? 'sub-circle-bg-black sub-circle'
-                        : '')
+                        : ''
                 }
               ></span>
             </span>

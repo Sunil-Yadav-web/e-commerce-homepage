@@ -52,7 +52,7 @@ export const Header = () => {
               </li>
             </ul>
 
-            <div className="d-flex align-items-center gap-4">
+            <div className="d-flex align-items-center gap-3 gap-sm-4">
               <div className="search-box d-flex justify-content-center align-items-center gap-4">
                 <input
                   type="text"

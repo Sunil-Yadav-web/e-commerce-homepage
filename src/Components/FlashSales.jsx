@@ -48,7 +48,7 @@ function FlashSales() {
           </div>
 
           <div className="col align-self-end">
-            <div className="d-flex justify-content-end gap-2 ">
+            <div className="d-flex justify-content-end gap-2 d-sm-flex d-none">
               <img src={LeftArrow} alt="LeftArrow" />
               <img src={RightArrow} alt="RightArrow" />
             </div>

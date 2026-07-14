@@ -9,7 +9,7 @@ function NewArrival() {
   return (
     <section className="new-arrival py-5">
       <div className="container">
-        <div className="section-heading mb-5">
+        <div className="section-heading mb-2">
           <div className="section-tag"></div>
 
           <span>Featured</span>
